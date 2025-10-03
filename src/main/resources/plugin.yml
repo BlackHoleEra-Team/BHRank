@@ -1,0 +1,20 @@
+name: BHRank
+version: '4.2.2'
+main: com.bhe.bHRank.BHRank
+api-version: '1.21'
+description: 玩家头衔管理系统
+author: BlackHoleEraTeam
+softdepend: [PlaceholderAPI]
+
+commands:
+  br:
+    description: 管理玩家头衔
+    usage: /br [give|remove|set|info|help]
+
+permissions:
+  bherank.use:
+    description: 允许使用头衔管理命令
+    default: op
+  bherank.vip:
+    description: 允许VIP玩家设置自己的头衔
+    default: false
