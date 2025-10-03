@@ -75,4 +75,4 @@ BHRank.getInstance().getPlayerTitle(playerUUID);
 ---
 
 **开发团队**: BlackHoleEraTeam  
-**问题反馈**: [GitHub Issues]
+**问题反馈**: [GitHub Issues] https://github.com/BlackHoleEra-Team/BHRank/issues
