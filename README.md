@@ -68,7 +68,7 @@ max-title-length: 15
 ## 使用示例
 ### 请确保你已经加载<a href="https://github.com/BlackHoleEra-Team/BhRankExpansion">PAPI扩展</a>
 **使用/br give <玩家> <头衔> 或 /br set <头衔>后**
-###TrChat使用示例：
+### TrChat使用示例：
 - 1.打开plugins/TrChat/channels/Normal.yml
 - 2.找到以下字段
 ```
