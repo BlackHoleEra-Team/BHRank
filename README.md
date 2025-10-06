@@ -10,6 +10,7 @@
 - 1.将插件放入服务器的 `plugins` 文件夹
 - 2.重启服务器
 - 3.根据需要配置权限和设置
+- 4.使用PAPI扩展获取玩家头衔 https://github.com/BlackHoleEra-Team/BhRankExpansion
 
 ## 支持版本
 Minecraft 1.21+
@@ -63,6 +64,23 @@ Minecraft 1.21+
 # 最大称号长度（可见字符数，颜色代码不计入）
 max-title-length: 15
 ```
+
+## 使用示例
+### 请确保你已经加载<a href="https://github.com/BlackHoleEra-Team/BhRankExpansion">PAPI扩展</a>
+**使用/br give <玩家> <头衔> 或 /br set <头衔>后**
+###TrChat使用示例：
+- 1.打开plugins/TrChat/channels/Normal.yml
+- 2.找到以下字段
+```
+text: '&8[&3%player_world%&8]' # 这里
+```
+**改为**
+```
+text: '&8[&3%player_world%&8]%bhrank_player_title%'
+```
+
+**TAB插件使用方法类似，在groups.yml里面修改成员组相关显示文本即可**
+---
 
 ## 开发者API
 > ⚠️ **未经测试警告**: 此开发者API尚未经过完整测试，可能包含未知问题。不保证完全可用，推荐使用PAPI扩展
